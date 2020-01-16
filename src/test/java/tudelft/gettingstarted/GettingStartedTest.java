@@ -1,6 +1,8 @@
 package tudelft.gettingstarted;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class GettingStartedTest {
@@ -22,7 +24,7 @@ public class GettingStartedTest {
     @Test
     public void addFiveToMinus20() {
         int result = new GettingStarted().addFive(-20);
-        Assertions.assertEquals(-15,result);
+        Assertions.assertEquals(-15, result);
     }
 
     // Add more test cases
