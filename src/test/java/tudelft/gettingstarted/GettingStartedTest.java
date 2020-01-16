@@ -27,7 +27,7 @@ public class GettingStartedTest {
         Assertions.assertEquals(-15, result);
     }
 
-    // Add more test cases
+    // ADD MORE TEST CASES
     @Test
     public void addFiveToMinus5() {
         Assertions.assertEquals(0, new GettingStarted().addFive(-5));
